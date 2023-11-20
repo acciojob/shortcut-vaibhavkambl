@@ -1,5 +1,9 @@
-function shortcut(s1, s2) {
-  // your code here
+function shortcut(str1, str2) {
+  if (str1.length > 0 && str2.length > 0) {
+    return str1[0].toUpperCase() + str2[0].toUpperCase();
+  } else {
+    return '';
+  }
 }
 
 // Do not change the code below.
